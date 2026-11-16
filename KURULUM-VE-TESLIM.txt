@@ -1,0 +1,15 @@
+MİNİ KATALOG – HIZLI TESLİM NOTLARI
+
+1) GitHub hesabınızda "mini-katalog-flutter" isminde PUBLIC yeni depo oluşturun.
+2) ZIP'i çıkarın. ZIP dosyasını tek parça olarak değil, içindeki dosya ve klasörleri GitHub'a yükleyin.
+3) GitHub repo ana dizininde README.md, pubspec.yaml, lib/, assets/, test/, docs/ görünmelidir.
+4) GitHub depo adresinizi formun "Yalnızca Github bağlantısı" kısmına yapıştırın.
+5) Formun görsel alanına docs/onizleme içindeki 3 görselin TASARIM ÖNİZLEMESİ olduğunu bilerek yaklaşın. Yönerge gerçek uygulama ekran görüntüsü istediği için, cihazda açıp gerçek screenshot alarak bunları değiştirmelisiniz.
+
+Windows 11 üzerinde Flutter kurulduktan sonra:
+flutter doctor
+flutter create --platforms=android,ios .
+flutter pub get
+flutter run
+
+Not: Bu projede Flutter cihaz testi henüz yapılmadı. GitHub deposunun açılması ve dosyaların yüklenmesi, tek başına çalışır durumda olduğunu kanıtlamaz.

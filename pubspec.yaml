@@ -1,0 +1,17 @@
+name: mini_katalog
+version: 1.0.0+1
+description: Flutter ile geliştirilmiş, örnek JSON verisi kullanan mini ürün katalog uygulaması.
+publish_to: 'none'
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/products.json
+    - assets/images/
